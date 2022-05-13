@@ -1,0 +1,48 @@
+*{
+    
+    
+    font-family:  'Poppins','Courier New', Courier, monospace;
+    
+}
+ .title1{
+    color: black;
+}
+/*----head---*/
+.subtitle{
+     font-weight: 500px;
+    font-weight: 600;
+    font-size: x-large;
+}
+.headsection{
+    border: 1px solid red;
+    align-items: center;
+    
+    padding-left: 100px;
+   
+}
+.instruction{
+    color: chartreuse;
+    border: 1px solid red;
+    text-align: center;
+}
+hr{
+    background: linear-gradient(to right yellow green);
+}
+.header2{
+
+
+}
+/*_----exam section----*/
+section{
+    background: antiquewhite;
+    padding-left: 50px;
+}
+footer div h2{
+    color: aliceblue;
+    padding-left: 350px;
+}
+.submit{
+    color: black;
+    display: inline-block;
+    margin-top: 20px;
+}
