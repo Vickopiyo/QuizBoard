@@ -28,27 +28,47 @@
         </div >
         <div class="examsect">
             <h3>1. Which of the following is not a programming language</h3>
-           <div><input type="radio">C</div>
-           <div><input type="radio">Python</div>
-           <div><input type="radio">HTML</div>
+            <div><input type="radio" name="quiz1" >C</div>
+            <div><input type="radio" name="quiz1">python</div>
+            <div><input type="radio" name="quiz1" id="correct1">HTML</div>
+           
         </div>
 
         <div class="examsect">
             <h3>2. Which of the following is a component of a CPU</h3>
-            <div><input type="radio">Mouse</div>
-            <div><input type="radio">Keyboard</div>
-            <div><input type="radio">Hard drive</div>
+            
+                <div><input type="radio" name="quiz2">Mouse</div>
+                <div><input type="radio" name="quiz2">Keyboard</div>
+                <div><input type="radio" name="quiz2" id="correct2">Hard drive</div>
+            
         </div>
 
 
         <div class="examsect">
             <h3>3. What's the initial of Random Access Memory</h3>
-         <div><input type="radio">ROM</div>
-         <div><input type="radio">RAM</div>
-         <div><input type="radio">RM</div>
+            <div><input type="radio" name="quiz3">ROM</div>
+            <div><input type="radio" name="quiz3" id="correct3">RAM</div>
+            <div><input type="radio" name="quiz3">RM</div>
         </div>
         
-        <div ><input type="submit" placeholder="Submit" class="answers"></div>
+        <div ><input type="submit" value="S U B M I T" class="answers" onclick="result()"></div>
+        <script type="text/javascript">
+            function result(){
+                 var score = 0;
+                 if(document.getElementById('correct1 ').checked){
+                     score++;
+                 }
+                 if(document.getElementById('correct2').checked){
+                     score++;
+                 }
+                 if(document.getElementById('correct3').checked){
+                     score++;
+                 }
+                 alert()
+                 
+            }
+
+        </script>
     </section>
     <footer>
         <div><h2>Wish you all the best.</h2></div>
