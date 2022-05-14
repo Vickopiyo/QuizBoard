@@ -7,6 +7,12 @@
  .title1{
     color: black;
     font-weight: 800;
+text-shadow: 4px 4px 4px 10px red;
+}
+ h1{ color: aqua;
+    text-transform: uppercase;
+    text-shadow: 1px 1px  aqua;
+    
 }
 /*----head---*/
 .subtitle{
