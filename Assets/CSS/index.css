@@ -21,7 +21,7 @@ text-shadow: 4px 4px 4px 10px red;
     font-size: x-large;
 }
 .headsection{
-    border: 1px solid red;
+    border-radius: 5px;
     align-items: center;
     background: rgb(194, 141, 43);
     margin-bottom: 0px;
@@ -29,12 +29,22 @@ text-shadow: 4px 4px 4px 10px red;
     padding-left: 100px;
    
 }
+.time{
+    font-size: x-large;
+    font-weight: 700;
+    text-align: right;
+    padding-right: 200px;
+    color:aqua;
+}
 .instruction{
-    color: chartreuse;
-    border: 1px solid red;
+    color: black;
+    
     text-align: center;
     margin-bottom: 0px;
     margin-left: 0px;
+    font-style: italic;
+    text-shadow: 1px 1px black;
+    opacity: 0.7;
 }
 hr{
     background: linear-gradient(to right, black green);
@@ -55,6 +65,14 @@ section{
     border-radius: 20px;
     margin: 0px 30px 10px 30px;
     box-shadow: 5px 5px 5px 5px grey;
+}
+section:hover{
+    background: grey;
+    padding-left: 50px;
+    border-radius: 20px;
+    margin: 0px 30px 10px 30px;
+    box-shadow: 5px 5px 5px 5px grey;
+    transition: 1sec;
 }
 footer div h2{
     color: aliceblue;
@@ -106,6 +124,14 @@ footer div h2{
     }
     .examsect{
         padding-left: 50px;
+    }
+    hr{
+        background: linear-gradient(to right, black green);
+        
+        height: 2px;
+        width: 200px;
+        padding-left: 100px;
+        margin-top: 0px;
     }
 
     
