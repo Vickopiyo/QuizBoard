@@ -1,17 +1,20 @@
 <script type="text/javascript">
     
-            function result(){
-                 var tot = 0;
+            function result() {
+                
+            }{
+                 var score = 0;
                  if(document.getElementById('correct1').checked){
-                     tot++;
+                    score++;
+
                  }
                  if(document.getElementById('correct2').checked){
-                     tot++;
+                     score++;
                  }
                  if(document.getElementById('correct3').checked){
-                     tot++;
+                     score++;
                  }
-                 document.write("YOUR SCORE:" +tot)
+                 alert("YOUR SCORE:" +score)
                  
             }
 
