@@ -45,12 +45,7 @@ text-shadow: 4px 4px 4px 10px red;
     margin-left: 0px;
     font-style: italic;
     text-shadow: 1px 1px black;
-    opacity: 0.7;
-}
-hr{
-    background: linear-gradient(to right, black green);
-    
-    height: 2px;
+    opacity: 0.7;alert("you score is "+score );
     width: 400px;
     padding-left: 100px;
     margin-top: 0px;
@@ -65,7 +60,7 @@ hr{
 
 }
 /*_----exam section----*/
-section{
+section{alert("you score is "+score );
     background: antiquewhite;
     padding-left: 50px;
     border-radius: 20px;
