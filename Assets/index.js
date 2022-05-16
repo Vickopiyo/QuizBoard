@@ -16,6 +16,9 @@ function result(){
     if(document.getElementById('correct5').checked){
             score++;
             }
+            
 
-    document.write("score is " +score/5*100);
+    document.write("Score is " +score/5*100+"%");
 }
+result();
+ 

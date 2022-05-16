@@ -1,5 +1,13 @@
 *{
     background:  rgb(185, 138, 230);
-    font-family: 'poppins'.serif;
-    padding: 10px;
+    font-family: 'poppins',serif;
+    padding: 5px;
+   border-radius: 10px;
 }
+
+.headsection{
+    color: aqua;
+    text-align: center;
+    /*---header
+}
+
