@@ -20,5 +20,5 @@ function result(){
 
     document.write("Score is " +score/5*100+"%");
 }
-result();
+
  

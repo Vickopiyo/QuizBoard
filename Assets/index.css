@@ -8,6 +8,11 @@
 .headsection{
     color: aqua;
     text-align: center;
-    /*---header
+    /*---header--*/
 }
 
+.answers{
+    background: goldenrod;
+    margin-top: 20px;
+
+}
